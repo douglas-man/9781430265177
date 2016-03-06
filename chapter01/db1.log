@@ -1,4 +1,4 @@
-/*C3*/SET SCHEMA PUBLIC
+/*C2*/SET SCHEMA PUBLIC
 drop table Message if exists
 drop sequence hibernate_sequence
 create sequence hibernate_sequence start with 1 increment by 1
@@ -6,3 +6,9 @@ create table Message (id bigint not null, text varchar(255) not null, primary ke
 INSERT INTO MESSAGE VALUES(1,'Hello, world')
 ALTER SEQUENCE PUBLIC.HIBERNATE_SEQUENCE RESTART WITH 2
 COMMIT
+/*C3*/SET SCHEMA PUBLIC
+INSERT INTO MESSAGES VALUES(0,'Hello, World')
+COMMIT
+DISCONNECT
+/*C4*/SET SCHEMA PUBLIC
+DISCONNECT

@@ -1,0 +1,8 @@
+/*C4*/SET SCHEMA PUBLIC
+\u000a    drop table Message if exists
+\u000a    drop sequence hibernate_sequence
+\u000a    create sequence hibernate_sequence start with 1 increment by 1
+\u000a    create table Message (\u000a        id bigint not null,\u000a        text varchar(255) not null,\u000a        primary key (id)\u000a    )
+INSERT INTO MESSAGE VALUES(1,'Hello, world')
+ALTER SEQUENCE PUBLIC.HIBERNATE_SEQUENCE RESTART WITH 2
+COMMIT
