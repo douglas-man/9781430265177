@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="809" started-at="2016-03-08T19:45:57Z" finished-at="2016-03-08T19:45:58Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="809" started-at="2016-03-08T19:45:57Z" finished-at="2016-03-08T19:45:58Z">
+      <class name="chapter02.hibernate.PersistenceTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:chapter02.hibernate.PersistenceTest@19dfb72a]" name="setup" is-config="true" duration-ms="2485" started-at="2016-03-08T14:45:55Z" finished-at="2016-03-08T14:45:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:chapter02.jdbc.PersistenceTest@2f7a2457]" name="setup" is-config="true" duration-ms="193" started-at="2016-03-08T14:45:57Z" finished-at="2016-03-08T14:45:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="saveMessage()[pri:0, instance:chapter02.hibernate.PersistenceTest@19dfb72a]" name="saveMessage" duration-ms="79" started-at="2016-03-08T14:45:57Z" finished-at="2016-03-08T14:45:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveMessage -->
+        <test-method status="PASS" signature="readMessage()[pri:0, instance:chapter02.hibernate.PersistenceTest@19dfb72a]" name="readMessage" duration-ms="288" started-at="2016-03-08T14:45:58Z" depends-on-methods="chapter02.hibernate.PersistenceTest.saveMessage" finished-at="2016-03-08T14:45:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readMessage -->
+      </class> <!-- chapter02.hibernate.PersistenceTest -->
+      <class name="chapter02.jdbc.PersistenceTest">
+        <test-method status="PASS" signature="saveMessage()[pri:0, instance:chapter02.jdbc.PersistenceTest@2f7a2457]" name="saveMessage" duration-ms="165" started-at="2016-03-08T14:45:57Z" finished-at="2016-03-08T14:45:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveMessage -->
+        <test-method status="PASS" signature="readMessage()[pri:0, instance:chapter02.jdbc.PersistenceTest@2f7a2457]" name="readMessage" duration-ms="267" started-at="2016-03-08T14:45:58Z" depends-on-methods="chapter02.jdbc.PersistenceTest.saveMessage" finished-at="2016-03-08T14:45:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readMessage -->
+      </class> <!-- chapter02.jdbc.PersistenceTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

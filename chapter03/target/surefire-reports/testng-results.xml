@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="16" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="7442" started-at="2016-03-08T19:46:07Z" finished-at="2016-03-08T19:46:15Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="7442" started-at="2016-03-08T19:46:07Z" finished-at="2016-03-08T19:46:15Z">
+      <class name="chapter03.application.FindAverageRankingTest">
+        <test-method status="PASS" signature="validateRankingAverage()[pri:0, instance:chapter03.application.FindAverageRankingTest@7a5d012c]" name="validateRankingAverage" duration-ms="193" started-at="2016-03-08T14:46:11Z" finished-at="2016-03-08T14:46:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRankingAverage -->
+      </class> <!-- chapter03.application.FindAverageRankingTest -->
+      <class name="chapter03.simple.ModelTest">
+        <test-method status="PASS" signature="testModelCreation()[pri:0, instance:chapter03.simple.ModelTest@64616ca2]" name="testModelCreation" duration-ms="34" started-at="2016-03-08T14:46:12Z" finished-at="2016-03-08T14:46:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testModelCreation -->
+      </class> <!-- chapter03.simple.ModelTest -->
+      <class name="chapter03.application.FindBestRankingTest">
+        <test-method status="PASS" signature="findBestForNonexistentSkill()[pri:0, instance:chapter03.application.FindBestRankingTest@2f7a2457]" name="findBestForNonexistentSkill" duration-ms="36" started-at="2016-03-08T14:46:12Z" finished-at="2016-03-08T14:46:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findBestForNonexistentSkill -->
+        <test-method status="PASS" signature="findBestForSkill()[pri:0, instance:chapter03.application.FindBestRankingTest@2f7a2457]" name="findBestForSkill" duration-ms="138" started-at="2016-03-08T14:46:12Z" finished-at="2016-03-08T14:46:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findBestForSkill -->
+      </class> <!-- chapter03.application.FindBestRankingTest -->
+      <class name="chapter03.application.UpdateRankingTest">
+        <test-method status="PASS" signature="updateExistingRanking()[pri:0, instance:chapter03.application.UpdateRankingTest@4e04a765]" name="updateExistingRanking" duration-ms="36" started-at="2016-03-08T14:46:15Z" finished-at="2016-03-08T14:46:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateExistingRanking -->
+        <test-method status="PASS" signature="updateNonexistentRanking()[pri:0, instance:chapter03.application.UpdateRankingTest@4e04a765]" name="updateNonexistentRanking" duration-ms="17" started-at="2016-03-08T14:46:15Z" finished-at="2016-03-08T14:46:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateNonexistentRanking -->
+      </class> <!-- chapter03.application.UpdateRankingTest -->
+      <class name="chapter03.hibernate.PersonTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:chapter03.hibernate.PersonTest@783e6358]" name="setup" is-config="true" duration-ms="1241" started-at="2016-03-08T14:46:12Z" finished-at="2016-03-08T14:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testSavePerson()[pri:0, instance:chapter03.hibernate.PersonTest@783e6358]" name="testSavePerson" duration-ms="3" started-at="2016-03-08T14:46:13Z" finished-at="2016-03-08T14:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSavePerson -->
+      </class> <!-- chapter03.hibernate.PersonTest -->
+      <class name="chapter03.application.RemoveRankingTest">
+        <test-method status="PASS" signature="removeNonexistentRanking()[pri:0, instance:chapter03.application.RemoveRankingTest@3cda1055]" name="removeNonexistentRanking" duration-ms="9" started-at="2016-03-08T14:46:15Z" finished-at="2016-03-08T14:46:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeNonexistentRanking -->
+        <test-method status="PASS" signature="removeRanking()[pri:0, instance:chapter03.application.RemoveRankingTest@3cda1055]" name="removeRanking" duration-ms="59" started-at="2016-03-08T14:46:15Z" finished-at="2016-03-08T14:46:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeRanking -->
+      </class> <!-- chapter03.application.RemoveRankingTest -->
+      <class name="chapter03.application.FindAllRankingsTest">
+        <test-method status="PASS" signature="findAllRankings()[pri:0, instance:chapter03.application.FindAllRankingsTest@13fee20c]" name="findAllRankings" duration-ms="148" started-at="2016-03-08T14:46:11Z" finished-at="2016-03-08T14:46:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findAllRankings -->
+        <test-method status="PASS" signature="findAllRankingsEmptySet()[pri:0, instance:chapter03.application.FindAllRankingsTest@13fee20c]" name="findAllRankingsEmptySet" duration-ms="23" started-at="2016-03-08T14:46:11Z" finished-at="2016-03-08T14:46:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findAllRankingsEmptySet -->
+      </class> <!-- chapter03.application.FindAllRankingsTest -->
+      <class name="chapter03.hibernate.RankingTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:chapter03.hibernate.RankingTest@73f792cf]" name="setup" is-config="true" duration-ms="236" started-at="2016-03-08T14:46:13Z" finished-at="2016-03-08T14:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="changeRanking()[pri:0, instance:chapter03.hibernate.RankingTest@73f792cf]" name="changeRanking" duration-ms="139" started-at="2016-03-08T14:46:13Z" finished-at="2016-03-08T14:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeRanking -->
+        <test-method status="PASS" signature="shutdown()[pri:0, instance:chapter03.hibernate.RankingTest@73f792cf]" name="shutdown" is-config="true" duration-ms="2" started-at="2016-03-08T14:46:13Z" finished-at="2016-03-08T14:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:chapter03.hibernate.RankingTest@73f792cf]" name="setup" is-config="true" duration-ms="187" started-at="2016-03-08T14:46:13Z" finished-at="2016-03-08T14:46:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="removeRanking()[pri:0, instance:chapter03.hibernate.RankingTest@73f792cf]" name="removeRanking" duration-ms="157" started-at="2016-03-08T14:46:14Z" finished-at="2016-03-08T14:46:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeRanking -->
+        <test-method status="PASS" signature="shutdown()[pri:0, instance:chapter03.hibernate.RankingTest@73f792cf]" name="shutdown" is-config="true" duration-ms="4" started-at="2016-03-08T14:46:14Z" finished-at="2016-03-08T14:46:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:chapter03.hibernate.RankingTest@73f792cf]" name="setup" is-config="true" duration-ms="298" started-at="2016-03-08T14:46:14Z" finished-at="2016-03-08T14:46:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testRankings()[pri:0, instance:chapter03.hibernate.RankingTest@73f792cf]" name="testRankings" duration-ms="118" started-at="2016-03-08T14:46:14Z" finished-at="2016-03-08T14:46:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRankings -->
+        <test-method status="PASS" signature="shutdown()[pri:0, instance:chapter03.hibernate.RankingTest@73f792cf]" name="shutdown" is-config="true" duration-ms="14" started-at="2016-03-08T14:46:14Z" finished-at="2016-03-08T14:46:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:chapter03.hibernate.RankingTest@73f792cf]" name="setup" is-config="true" duration-ms="298" started-at="2016-03-08T14:46:14Z" finished-at="2016-03-08T14:46:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testSaveRanking()[pri:0, instance:chapter03.hibernate.RankingTest@73f792cf]" name="testSaveRanking" duration-ms="22" started-at="2016-03-08T14:46:14Z" finished-at="2016-03-08T14:46:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSaveRanking -->
+        <test-method status="PASS" signature="shutdown()[pri:0, instance:chapter03.hibernate.RankingTest@73f792cf]" name="shutdown" is-config="true" duration-ms="12" started-at="2016-03-08T14:46:14Z" finished-at="2016-03-08T14:46:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdown -->
+      </class> <!-- chapter03.hibernate.RankingTest -->
+      <class name="chapter03.application.AddRankingTest">
+        <test-method status="PASS" signature="addRanking()[pri:0, instance:chapter03.application.AddRankingTest@3b81a1bc]" name="addRanking" duration-ms="3954" started-at="2016-03-08T14:46:07Z" finished-at="2016-03-08T14:46:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addRanking -->
+      </class> <!-- chapter03.application.AddRankingTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

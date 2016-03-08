@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Command_line_suite">
+              <span class="suite-name border-passed">Command line suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Command_line_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Command_line_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Command_line_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Command_line_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Command_line_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Command_line_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Command_line_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods passed suite-Command_line_suite"> (hide)</a> <!-- hide-methods passed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods passed suite-Command_line_suite"> (show)</a> <!-- show-methods passed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Command_line_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter03.application.AddRankingTest" hash-for-method="addRanking">addRanking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter03.hibernate.RankingTest" hash-for-method="changeRanking">changeRanking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter03.application.FindAllRankingsTest" hash-for-method="findAllRankings">findAllRankings</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter03.application.FindAllRankingsTest" hash-for-method="findAllRankingsEmptySet">findAllRankingsEmptySet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter03.application.FindBestRankingTest" hash-for-method="findBestForNonexistentSkill">findBestForNonexistentSkill</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter03.application.FindBestRankingTest" hash-for-method="findBestForSkill">findBestForSkill</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter03.application.RemoveRankingTest" hash-for-method="removeNonexistentRanking">removeNonexistentRanking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter03.hibernate.RankingTest" hash-for-method="removeRanking">removeRanking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter03.application.RemoveRankingTest" hash-for-method="removeRanking">removeRanking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter03.simple.ModelTest" hash-for-method="testModelCreation">testModelCreation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter03.hibernate.RankingTest" hash-for-method="testRankings">testRankings</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter03.hibernate.PersonTest" hash-for-method="testSavePerson">testSavePerson</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter03.hibernate.RankingTest" hash-for-method="testSaveRanking">testSaveRanking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter03.application.UpdateRankingTest" hash-for-method="updateExistingRanking">updateExistingRanking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter03.application.UpdateRankingTest" hash-for-method="updateNonexistentRanking">updateNonexistentRanking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="chapter03.application.FindAverageRankingTest" hash-for-method="validateRankingAverage">validateRankingAverage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Command_line_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">chapter03.application.FindBestRankingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="findBestForNonexistentSkill">
+                  </a> <!-- findBestForNonexistentSkill -->
+                  <span class="method-name">findBestForNonexistentSkill</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findBestForSkill">
+                  </a> <!-- findBestForSkill -->
+                  <span class="method-name">findBestForSkill</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">chapter03.application.RemoveRankingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeNonexistentRanking">
+                  </a> <!-- removeNonexistentRanking -->
+                  <span class="method-name">removeNonexistentRanking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeRanking">
+                  </a> <!-- removeRanking -->
+                  <span class="method-name">removeRanking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">chapter03.application.FindAverageRankingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateRankingAverage">
+                  </a> <!-- validateRankingAverage -->
+                  <span class="method-name">validateRankingAverage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">chapter03.hibernate.RankingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="changeRanking">
+                  </a> <!-- changeRanking -->
+                  <span class="method-name">changeRanking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeRanking">
+                  </a> <!-- removeRanking -->
+                  <span class="method-name">removeRanking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRankings">
+                  </a> <!-- testRankings -->
+                  <span class="method-name">testRankings</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSaveRanking">
+                  </a> <!-- testSaveRanking -->
+                  <span class="method-name">testSaveRanking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">chapter03.application.AddRankingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addRanking">
+                  </a> <!-- addRanking -->
+                  <span class="method-name">addRanking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">chapter03.simple.ModelTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testModelCreation">
+                  </a> <!-- testModelCreation -->
+                  <span class="method-name">testModelCreation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">chapter03.application.FindAllRankingsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="findAllRankings">
+                  </a> <!-- findAllRankings -->
+                  <span class="method-name">findAllRankings</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findAllRankingsEmptySet">
+                  </a> <!-- findAllRankingsEmptySet -->
+                  <span class="method-name">findAllRankingsEmptySet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">chapter03.application.UpdateRankingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateExistingRanking">
+                  </a> <!-- updateExistingRanking -->
+                  <span class="method-name">updateExistingRanking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateNonexistentRanking">
+                  </a> <!-- updateNonexistentRanking -->
+                  <span class="method-name">updateNonexistentRanking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">chapter03.hibernate.PersonTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSavePerson">
+                  </a> <!-- testSavePerson -->
+                  <span class="method-name">testSavePerson</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+        </div> <!-- panel Command_line_suite -->
+        <div panel-name="test-xml-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;Command line suite&quot;&gt;
+  &lt;test name=&quot;Command line test&quot; preserve-order=&quot;false&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;chapter03.application.FindBestRankingTest&quot;/&gt;
+      &lt;class name=&quot;chapter03.application.UpdateRankingTest&quot;/&gt;
+      &lt;class name=&quot;chapter03.application.FindAverageRankingTest&quot;/&gt;
+      &lt;class name=&quot;chapter03.application.AddRankingTest&quot;/&gt;
+      &lt;class name=&quot;chapter03.application.FindAllRankingsTest&quot;/&gt;
+      &lt;class name=&quot;chapter03.application.RemoveRankingTest&quot;/&gt;
+      &lt;class name=&quot;chapter03.hibernate.RankingTest&quot;/&gt;
+      &lt;class name=&quot;chapter03.hibernate.PersonTest&quot;/&gt;
+      &lt;class name=&quot;chapter03.simple.ModelTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- Command line suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (9 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Command_line_suite');
+function tableData_Command_line_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addRanking')
+data.setCell(0, 2, 'chapter03.application.AddRankingTest')
+data.setCell(0, 3, 3954);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateRankingAverage')
+data.setCell(1, 2, 'chapter03.application.FindAverageRankingTest')
+data.setCell(1, 3, 193);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'removeRanking')
+data.setCell(2, 2, 'chapter03.hibernate.RankingTest')
+data.setCell(2, 3, 157);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'findAllRankings')
+data.setCell(3, 2, 'chapter03.application.FindAllRankingsTest')
+data.setCell(3, 3, 148);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'changeRanking')
+data.setCell(4, 2, 'chapter03.hibernate.RankingTest')
+data.setCell(4, 3, 139);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'findBestForSkill')
+data.setCell(5, 2, 'chapter03.application.FindBestRankingTest')
+data.setCell(5, 3, 138);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testRankings')
+data.setCell(6, 2, 'chapter03.hibernate.RankingTest')
+data.setCell(6, 3, 118);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'removeRanking')
+data.setCell(7, 2, 'chapter03.application.RemoveRankingTest')
+data.setCell(7, 3, 59);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'updateExistingRanking')
+data.setCell(8, 2, 'chapter03.application.UpdateRankingTest')
+data.setCell(8, 3, 36);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'findBestForNonexistentSkill')
+data.setCell(9, 2, 'chapter03.application.FindBestRankingTest')
+data.setCell(9, 3, 36);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testModelCreation')
+data.setCell(10, 2, 'chapter03.simple.ModelTest')
+data.setCell(10, 3, 34);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'findAllRankingsEmptySet')
+data.setCell(11, 2, 'chapter03.application.FindAllRankingsTest')
+data.setCell(11, 3, 23);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testSaveRanking')
+data.setCell(12, 2, 'chapter03.hibernate.RankingTest')
+data.setCell(12, 3, 22);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'updateNonexistentRanking')
+data.setCell(13, 2, 'chapter03.application.UpdateRankingTest')
+data.setCell(13, 3, 17);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'removeNonexistentRanking')
+data.setCell(14, 2, 'chapter03.application.RemoveRankingTest')
+data.setCell(14, 3, 9);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testSavePerson')
+data.setCell(15, 2, 'chapter03.hibernate.PersonTest')
+data.setCell(15, 3, 3);
+window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <div id="times-div-Command_line_suite">
+              </div> <!-- times-div-Command_line_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">chapter03.application.AddRankingTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addRanking</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">chapter03.application.FindAllRankingsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">findAllRankings</span>
+                <span class="method-start">3955 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">findAllRankingsEmptySet</span>
+                <span class="method-start">4104 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">chapter03.application.FindAverageRankingTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateRankingAverage</span>
+                <span class="method-start">4128 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">chapter03.application.FindBestRankingTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">findBestForNonexistentSkill</span>
+                <span class="method-start">4322 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">findBestForSkill</span>
+                <span class="method-start">4358 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">chapter03.simple.ModelTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testModelCreation</span>
+                <span class="method-start">4496 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">chapter03.hibernate.PersonTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">4531 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testSavePerson</span>
+                <span class="method-start">5772 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">chapter03.hibernate.RankingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">5776 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">changeRanking</span>
+                <span class="method-start">6012 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">shutdown</span>
+                <span class="method-start">6152 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">6155 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">removeRanking</span>
+                <span class="method-start">6358 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">shutdown</span>
+                <span class="method-start">6515 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">6519 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRankings</span>
+                <span class="method-start">6817 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">shutdown</span>
+                <span class="method-start">6935 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">6949 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSaveRanking</span>
+                <span class="method-start">7247 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">shutdown</span>
+                <span class="method-start">7270 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">chapter03.application.RemoveRankingTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">removeNonexistentRanking</span>
+                <span class="method-start">7282 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">removeRanking</span>
+                <span class="method-start">7291 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">chapter03.application.UpdateRankingTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">updateExistingRanking</span>
+                <span class="method-start">7355 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateNonexistentRanking</span>
+                <span class="method-start">7392 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

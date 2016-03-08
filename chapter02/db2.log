@@ -1,4 +1,4 @@
-/*C4*/SET SCHEMA PUBLIC
+/*C3*/SET SCHEMA PUBLIC
 \u000a    drop table Message if exists
 \u000a    drop sequence hibernate_sequence
 \u000a    create sequence hibernate_sequence start with 1 increment by 1
